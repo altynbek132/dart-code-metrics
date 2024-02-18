@@ -1,4 +1,4 @@
-import 'package:dart_code_metrics/src/utils/string_extensions.dart';
+import 'package:ac_code_metrics/src/utils/string_extensions.dart';
 import 'package:test/test.dart';
 
 void main() {

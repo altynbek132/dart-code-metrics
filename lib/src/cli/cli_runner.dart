@@ -114,7 +114,7 @@ To hide this message pass the 'disable-sunset-warning' option.
   Future<void> _checkForUpdates() async {
     try {
       final latestVersion =
-          await _pubUpdater?.getLatestVersion('dart_code_metrics');
+          await _pubUpdater?.getLatestVersion('ac_code_metrics');
       final isUpToDate = packageVersion == latestVersion;
       if (!isUpToDate && latestVersion != null) {
         final changelogLink =
