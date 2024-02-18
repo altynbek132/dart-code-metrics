@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.7.4-2024021802
+
+* remove example/README.md
+* remove dart_code_metrics_presets dependency and embedded presets proxies
+* update LICENSE
+
 ## 5.7.4-2024021801
 
 /!\ FORK

@@ -1,5 +1,5 @@
 name: ac_code_metrics
-version: 5.7.4-2024021801
+version: 5.7.4-2024021802
 description: |
   Software analytics tool that helps developers analyse and improve software quality.
   Fork of the now discontinued dart-code-metrics Dart package.
