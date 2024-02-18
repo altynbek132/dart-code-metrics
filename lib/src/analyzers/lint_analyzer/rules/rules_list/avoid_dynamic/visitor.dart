@@ -8,7 +8,7 @@ class _Visitor extends RecursiveAstVisitor<void> {
   @override
   void visitSimpleIdentifier(SimpleIdentifier node) {
     final parent = node.parent;
-        if (parent is NamedType && (parent.type?.isDynamic ?? false)) {
+        if (parent is NamedType && parent.type is DynamicType) {
       final grandParent = node.parent?.parent;
       if (grandParent != null && !_isWithinMap(grandParent)) {
         _nodes.add(grandParent);
