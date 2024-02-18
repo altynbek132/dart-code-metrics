@@ -1,3 +1,5 @@
+// FIXME: Can't mock a final class. cf. https://github.com/felangel/mocktail/issues/196
+
 import 'package:analyzer/dart/ast/ast.dart';
 import 'package:ac_code_metrics/src/analyzers/lint_analyzer/metrics/metrics_list/cyclomatic_complexity/cyclomatic_complexity_metric.dart';
 import 'package:ac_code_metrics/src/analyzers/lint_analyzer/metrics/metrics_list/maximum_nesting_level/maximum_nesting_level_metric.dart';
@@ -13,8 +15,9 @@ import 'package:ac_code_metrics/src/analyzers/lint_analyzer/models/report.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:source_span/source_span.dart';
 
+/*
 class _DeclarationMock extends Mock implements Declaration {}
-
+*/
 MetricValue<T> buildMetricValueStub<T extends num>({
   required String id,
   required T value,
@@ -35,7 +38,7 @@ MetricValue<T> buildMetricValueStub<T extends num>({
       level: level,
       comment: '',
     );
-
+/*
 Report buildReportStub({
   SourceSpanBase? location,
   Iterable<MetricValue> metrics = const [],
@@ -97,3 +100,4 @@ Report buildFunctionRecordStub({
     metrics: [...metrics, ...defaultMetricValues],
   );
 }
+*/

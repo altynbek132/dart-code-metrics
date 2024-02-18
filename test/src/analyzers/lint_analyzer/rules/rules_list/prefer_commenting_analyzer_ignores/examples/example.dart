@@ -1,14 +1,12 @@
 // ignore_for_file: some_rule
 void main() {
-  // ignore: deprecated_member_use
-  final map = Map(); // LINT
+    final map = Map(); // LINT
 
   // ignore: deprecated_member_use, long-method
   final set = Set(); // LINT
 
   // Ignored for some reasons
-  // ignore: deprecated_member_use
-  final list = List();
+    final list = List();
 
   // ignore: deprecated_member_use same line ignore
   final queue = Queue();

@@ -173,6 +173,8 @@ void main() {
         );
       });
 
+      // FIXME: Can't mock a final class. cf. https://github.com/felangel/mocktail/issues/196
+      /*
       test('collect summary for passed report', () {
         final result = analyzer.getSummary([
           LintFileReport(
@@ -214,6 +216,7 @@ void main() {
           equals('10 USD'),
         );
       });
+      */
     },
     testOn: 'posix',
   );
