@@ -1,8 +1,13 @@
 # Changelog
 
-## Unreleased
+## 5.7.4-2024021801
 
-* chore: restrict `analyzer` version to `>=5.1.0 <5.14.0`.
+/!\ FORK
+
+* upgrade dependencies
+* remove version check
+* remove deprecation notice
+* remove usage analytics
 
 ## 5.7.4
 
