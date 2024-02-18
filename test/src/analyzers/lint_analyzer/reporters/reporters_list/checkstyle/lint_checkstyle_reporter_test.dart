@@ -1,12 +1,12 @@
 import 'dart:io';
 
-import 'package:ac_code_metrics/src/analyzers/lint_analyzer/reporters/lint_report_params.dart';
+//import 'package:ac_code_metrics/src/analyzers/lint_analyzer/reporters/lint_report_params.dart';
 import 'package:ac_code_metrics/src/analyzers/lint_analyzer/reporters/reporters_list/checkstyle/lint_checkstyle_reporter.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:test/test.dart';
-import 'package:xml/xml.dart';
+//import 'package:xml/xml.dart';
 
-import '../report_example.dart';
+//import '../report_example.dart';
 
 class IOSinkMock extends Mock implements IOSink {}
 
