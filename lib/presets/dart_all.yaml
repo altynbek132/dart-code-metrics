@@ -1,3 +1,0 @@
-ac_code_metrics:
-  extends:
-    - package:dart_code_metrics_presets/dart_all.yaml
