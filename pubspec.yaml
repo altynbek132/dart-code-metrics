@@ -1,10 +1,9 @@
 name: ac_code_metrics
-version: 5.7.4-2024021802
+version: 5.7.5
 description: |
   Software analytics tool that helps developers analyse and improve software quality.
   Fork of the now discontinued dart-code-metrics Dart package.
-repository: https://github.com/anthochamp/dart-code-metrics
-
+repository: https://github.com/altynbek132/dart-code-metrics
 environment:
   sdk: ">=2.18.0 <4.0.0"
 
@@ -16,26 +15,26 @@ platforms:
 dependencies:
   analyzer: ^6.4.1
   analyzer_plugin: ^0.11.3
-  ansicolor: ^2.0.1
-  args: ^2.0.0
-  collection: ^1.16.0
-  crypto: ^3.0.0
+  ansicolor: ^2.0.2
+  args: ^2.4.2
+  collection: ^1.18.0
+  crypto: ^3.0.3
   file: ^7.0.0
-  glob: ^2.0.1
-  html: ">=0.15.0 <1.0.0"
-  meta: ^1.7.0
-  path: ^1.8.0
-  platform: ^3.1.0 # overridden for lowest versions compatibility
-  source_span: ^1.8.0
-  xml: ">=5.3.0 <7.0.0"
-  yaml: ^3.1.0
+  glob: ^2.1.2
+  html: ^0.15.4
+  meta: ^1.11.0
+  path: ^1.9.0
+  platform: ^3.1.4
+  source_span: ^1.10.0
+  xml: ^6.5.0
+  yaml: ^3.1.2
 
 dev_dependencies:
-  coverage: ^1.0.2
-  intl: ">=0.17.0 <0.20.0"
-  lints: ">=2.0.0 <4.0.0" 
-  mocktail: ">=0.3.0 <2.0.0" 
-  test: ^1.21.0
+  coverage: ^1.7.2
+  intl: ^0.19.0
+  lints: ^3.0.0
+  mocktail: ^1.0.3
+  test: ^1.25.2
 
   # internal package, used only in tests data
   test_lints:
